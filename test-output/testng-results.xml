@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="6" total="7" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-23T20:46:43 EDT" name="Default suite" finished-at="2022-03-23T20:46:58 EDT" duration-ms="14833">
+  <suite started-at="2022-03-29T20:59:58 EDT" name="Default suite" finished-at="2022-03-29T21:00:09 EDT" duration-ms="10853">
     <groups>
     </groups>
-    <test started-at="2022-03-23T20:46:43 EDT" name="Default test" finished-at="2022-03-23T20:46:58 EDT" duration-ms="14833">
-      <class name="seleniumHomeWorkShamsu.HW_15_3152023_A02">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumHomeWorkShamsu.HW_15_3152023_A02@61019f59]" started-at="2022-03-23T20:46:43 EDT" name="setUp" finished-at="2022-03-23T20:46:45 EDT" duration-ms="2715" status="PASS">
+    <test started-at="2022-03-29T20:59:58 EDT" name="Default test" finished-at="2022-03-29T21:00:09 EDT" duration-ms="10853">
+      <class name="seleniumHomeWorkShamsu.HW_16_03172021">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumHomeWorkShamsu.HW_16_03172021@c88a337]" started-at="2022-03-29T20:59:58 EDT" name="setUp" finished-at="2022-03-29T21:00:09 EDT" duration-ms="10492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ButtonTest04()[pri:4, instance:seleniumHomeWorkShamsu.HW_15_3152023_A02@61019f59]" started-at="2022-03-23T20:46:45 EDT" name="ButtonTest04" finished-at="2022-03-23T20:46:52 EDT" duration-ms="6837" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ButtonTest04 -->
-        <test-method signature="ButtonTest05()[pri:5, instance:seleniumHomeWorkShamsu.HW_15_3152023_A02@61019f59]" started-at="2022-03-23T20:46:52 EDT" name="ButtonTest05" finished-at="2022-03-23T20:46:52 EDT" duration-ms="55" status="FAIL">
+        <test-method signature="partialLinkTextSignUp()[pri:7, instance:seleniumHomeWorkShamsu.HW_16_03172021@c88a337]" started-at="2022-03-29T21:00:09 EDT" name="partialLinkTextSignUp" finished-at="2022-03-29T21:00:09 EDT" duration-ms="211" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"partial link text","selector":"Business s"}
+              <![CDATA[no such element: Unable to locate element: {"method":"partial link text","selector":"//button[contains(text(),'Sig')]"}
   (Session info: chrome=99.0.4844.82)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'UDDIN', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [26ab05ac14c3330002d601c828133af5, findElement {using=partial link text, value=Business s}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\shams\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62944/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 26ab05ac14c3330002d601c828133af5]]>
+Command: [1c6edb6113fe05187e6f7f99789ad11c, findElement {using=partial link text, value=//button[contains(text(),'Sig')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\shams\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57601/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c6edb6113fe05187e6f7f99789ad11c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Business s"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"//button[contains(text(),'Sig')]"}
   (Session info: chrome=99.0.4844.82)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'UDDIN', ip: '192.168.0.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [26ab05ac14c3330002d601c828133af5, findElement {using=partial link text, value=Business s}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\shams\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62944/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 26ab05ac14c3330002d601c828133af5
+Command: [1c6edb6113fe05187e6f7f99789ad11c, findElement {using=partial link text, value=//button[contains(text(),'Sig')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\shams\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57601/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c6edb6113fe05187e6f7f99789ad11c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -54,7 +50,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at seleniumHomeWorkShamsu.HW_15_3152023_A02.ButtonTest05(HW_15_3152023_A02.java:29)
+at seleniumHomeWorkShamsu.HW_16_03172021.partialLinkTextSignUp(HW_16_03172021.java:66)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -88,16 +84,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ButtonTest05 -->
-        <test-method signature="ButtonTest06()[pri:6, instance:seleniumHomeWorkShamsu.HW_15_3152023_A02@61019f59]" started-at="2022-03-23T20:46:52 EDT" name="ButtonTest06" finished-at="2022-03-23T20:46:57 EDT" duration-ms="5059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ButtonTest06 -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:seleniumHomeWorkShamsu.HW_15_3152023_A02@61019f59]" started-at="2022-03-23T20:46:57 EDT" name="tearUp" finished-at="2022-03-23T20:46:58 EDT" duration-ms="130" status="PASS">
+        </test-method> <!-- partialLinkTextSignUp -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:seleniumHomeWorkShamsu.HW_16_03172021@c88a337]" started-at="2022-03-29T21:00:09 EDT" name="tearUp" finished-at="2022-03-29T21:00:09 EDT" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- seleniumHomeWorkShamsu.HW_15_3152023_A02 -->
+      </class> <!-- seleniumHomeWorkShamsu.HW_16_03172021 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
